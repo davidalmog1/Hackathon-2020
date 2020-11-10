@@ -4,8 +4,8 @@ The Product: Automation Environment integrity check.
 
 The Team: 
 David Almog : Main control Flow & Networking functions
-Vadim [    ] : Parsing & analyze Data
-Alon  [    ]    : Parsing & analyze Data
+Vadim [   ] : Parsing & analyze Data
+Alon  [   ] : Parsing & analyze Data
 
 The Problem:
 Environments need to be checked before testing, in order to verify 
