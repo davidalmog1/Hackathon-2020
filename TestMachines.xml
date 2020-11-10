@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<machines> 
+  <machine name="the name">  # enter machie hostname - Must
+    <roles>
+      <role>MachineType</role> # enter MachineType - Must
+    </roles>
+    <os> os </os>  # enter os possible
+    <osVersion> os version </osVersion> # enter os version - possible
+    <userName> usename </userName> # entrer usename
+    <password>password</password> # enter ps
+    <defaultGateway> IP </defaultGateway> # enter IP possible
+    <dnsServers>
+      <dnsServer> IP </dnsServer> # enter IP possible
+    </dnsServers>
+    <interfaces>
+      <Interface name="eth0">
+        <ipv4Address> IP </ipv4Address>  # enter IP Must
+        <ipv4NetworkMask>255.255.255.0</ipv4NetworkMask>  # enter mask Must
+        <macAddress>00:50:56:A3:0A:2D</macAddress>
+    </interfaces>
+</machines>
