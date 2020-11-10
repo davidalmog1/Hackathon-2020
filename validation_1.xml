@@ -1,0 +1,17 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<Validation>
+    <general>
+        <description value="My first validation" /> #enter description Must
+        <supported_machine type="MGMT"/> # enter machine type Must
+         <script name="script4.sh"/>     # enter script Must
+    </general>
+
+    <validations_list>
+        <action value="NOT"/>  # enter logic result
+        <result_string value="abc"/> # enter expected result
+        <result_string value="xyz"/> # enter expected result
+    </validations_list>
+    
+</Validation>
